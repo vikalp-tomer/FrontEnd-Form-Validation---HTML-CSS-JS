@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+form {
+  border: 1px solid white;
+  padding: 10px 10px;
+}
+
+label,input,span {
+  display: block;
+}
+
+input {
+  width: 100%;
+}
+
+.button {
+  padding: 5px 0;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+}
+
+form div span {
+  visibility: hidden;
+}
+
+.error input {
+  border-color: red;
+}
+
+.error span {
+  visibility: visible;
+}
+
+.success input {
+  border-color: green;
+}
